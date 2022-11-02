@@ -1,32 +1,92 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
-.banner img {
-    width: 100%;
-    border-radius: 15px;
+.pilih-liga img:hover{
+    transform: scale(1.2);
 }
 
-.pilih-liga img {
-    max-height: 100px;
+.pilih-liga .card:hover{
+    background-color: rgb(201, 199, 196);
 }
 
-.pilih-liga .card {
-    border-radius: 15px;
+.btn-dark:hover {
+    transform: scale(1.1);
 }
 
-.products .card {
-    border-radius: 15px;
-}
-
-.breadcrumb {
-    background-color: transparent;
-    padding: 0;
+.products .card:hover {
+    transform: scale(1.1);
 }
 
 .breadcrumb .active {
     font-weight: bold;
     color: black;
 }
+
+
+
+.footer{
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+.footer .social a{
+    color: #aaa;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.footer .social a:hover{
+    color: rgb(44, 43, 43);
+    opacity: 0.9;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1,6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.footer ul a {
+    color: #aaa;
+    text-decoration: none;  
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+
+.footer ul li:hover{
+    color: rgb(34, 34, 34);
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px ;
+    color: #aaa;
+}
+
+
+
 
